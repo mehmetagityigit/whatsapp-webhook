@@ -1,0 +1,6 @@
+{
+  "name": "WhatsApp AI Webhook",
+  "description": "WhatsApp Business API webhook that uses Gemini to reply to messages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
