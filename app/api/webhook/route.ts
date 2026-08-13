@@ -51,7 +51,7 @@ export async function POST(req: NextRequest) {
         const ai = new GoogleGenAI({ apiKey });
         
         const response = await ai.models.generateContent({
-          model: "gemini-2.5-flash", // İstenilen model
+          model: "gemini-3.5-flash", // İstenilen model
           contents: messageText,
         });
         
